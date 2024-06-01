@@ -96,7 +96,7 @@ Once the project is up and running, you can:
 - Log in with your credentials.
 - Explore and enroll in available courses.
 - Educators can create and manage courses.
-- Participate in quizzes and track your progress.
+- Track your progress.
 - Engage in discussions in the forums section.
 
 ## Technologies Used
