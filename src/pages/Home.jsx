@@ -45,12 +45,20 @@ function Home() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="mt-8 flex flex-row gap-7">
+        <div className="mt-8 hidden lg:flex-row gap-7 lg:flex">
           <CTAButton active={true} linkto={"/signup"}>
             Learn More
           </CTAButton>
           <CTAButton active={false} linkto={"/login"}>
             Book a Demo
+          </CTAButton>
+        </div>
+        <div className="mt-8 flex lg:flex-row gap-7 lg:hidden">
+          <CTAButton active={true} linkto={"/signup"}>
+            Sign Up
+          </CTAButton>
+          <CTAButton active={false} linkto={"/login"}>
+            Login
           </CTAButton>
         </div>
 
