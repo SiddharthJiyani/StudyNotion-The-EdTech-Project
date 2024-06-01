@@ -79,6 +79,11 @@ Ensure you have the following installed:
      npm start
      ```
 
+  - Or just import project and perform``` npm i``` or ```npm install```
+    then to start : ```npm run dev```
+    Here this command will run frontend and backend simultaneously
+    This is possible with the help of https://www.npmjs.com/package/concurrently .
+
 6. **Open your browser:**
 
    Navigate to `http://localhost:3000` to see the application in action.
