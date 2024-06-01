@@ -1,4 +1,3 @@
-# StudyNotion Edtech Project
 # Studynotion - The Edtech Project
 
 Welcome to the **Studynotion** repository! This project is an educational technology (Edtech) website built using the MERN stack (MongoDB, Express.js, React, Node.js). Studynotion aims to provide a comprehensive platform for students and educators to manage and access educational content efficiently.
