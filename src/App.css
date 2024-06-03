@@ -54,6 +54,9 @@ details > summary::-webkit-details-marker {
     -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
     animation:s3 1s infinite linear;
 }
+@keyframes s3{ 
+  100%{transform: rotate(1turn)}
+}
 
 .codeblock1 {
   width: 372.95px;
