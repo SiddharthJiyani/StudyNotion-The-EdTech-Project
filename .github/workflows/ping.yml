@@ -16,7 +16,7 @@ jobs:
       run: |
         echo "Starting server monitoring for 60 minutes..."
         for i in {1..12}; do
-          RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" https://studynotion-the-edtech-project.onrender.com//)
+          RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" https://studynotion-the-edtech-project.onrender.com/)
           if [ "$RESPONSE" -ne 200 ]; then
             echo "[$(date)] Server is down! HTTP Status: $RESPONSE"
           else
